@@ -1,0 +1,40 @@
+.project_heading{
+    text-align: center;
+    padding: 4rem 0 2rem 0;
+}
+.project_container{
+    width: 100%;
+    /* display: grid;
+    grid-template-columns: repeat(3, 1fr); */
+    gap: 40px;
+    padding-bottom: 5rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+.project_card{
+    width: 30%;
+    min-width: 400px;
+    background: #1a1919;
+    padding: 1.2rem 1rem;
+    flex: 1;
+}
+.project_card img{
+    width: 100%;
+}
+.project_title{
+    color: #fff;
+    padding: 1rem 0;
+}
+.pro_details p{
+    padding-bottom: 1rem;
+    font-size: 1.1rem;
+    text-align: justify;
+}
+.pro_btns{
+    display: flex;
+    justify-content: space-between;
+    padding: .5rem 0;
+}
+.pro_btns .btn{
+    padding: .5rem 1rem;
+}
